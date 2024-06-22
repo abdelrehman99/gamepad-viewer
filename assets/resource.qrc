@@ -1,0 +1,21 @@
+<RCC>
+  <qresource>
+    <file>strat.png</file>
+    <file>l1.png</file>
+    <file>r1.png</file>
+    <file>analog.png</file>
+    <file>base.png</file>
+    <file>l2.png</file>
+    <file>l3.png</file>
+    <file>o.png</file>
+    <file>pad_d.png</file>
+    <file>pad_l.png</file>
+    <file>pad_r.png</file>
+    <file>pad_u.png</file>
+    <file>r2.png</file>
+    <file>r3.png</file>
+    <file>square.png</file>
+    <file>triangle.png</file>
+    <file>x.png</file>
+  </qresource>
+</RCC>

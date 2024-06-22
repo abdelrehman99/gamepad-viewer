@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>993</width>
+    <height>757</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gamepad_widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>50</y>
+     <width>807</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>807</width>
+     <height>600</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>807</width>
+     <height>600</height>
+    </size>
+   </property>
+   <widget class="QLabel" name="gp_label">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>1</y>
+      <width>805</width>
+      <height>598</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>805</width>
+      <height>598</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>805</width>
+      <height>598</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/base.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l2_label">
+    <property name="geometry">
+     <rect>
+      <x>109</x>
+      <y>0</y>
+      <width>100</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>91</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>91</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/l2.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="r_analog_label">
+    <property name="geometry">
+     <rect>
+      <x>485</x>
+      <y>309</y>
+      <width>94</width>
+      <height>94</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>94</width>
+      <height>94</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>94</width>
+      <height>94</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/analog.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_analog_label">
+    <property name="geometry">
+     <rect>
+      <x>228</x>
+      <y>309</y>
+      <width>94</width>
+      <height>94</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>94</width>
+      <height>94</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>94</width>
+      <height>94</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/analog.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l3_label">
+    <property name="geometry">
+     <rect>
+      <x>228</x>
+      <y>309</y>
+      <width>94</width>
+      <height>94</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>94</width>
+      <height>94</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>94</width>
+      <height>94</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/l3.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="r3_label">
+    <property name="geometry">
+     <rect>
+      <x>485</x>
+      <y>309</y>
+      <width>94</width>
+      <height>94</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>94</width>
+      <height>94</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>94</width>
+      <height>94</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/r3.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="x_label">
+    <property name="geometry">
+     <rect>
+      <x>625</x>
+      <y>276</y>
+      <width>54</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>54</width>
+      <height>54</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>54</width>
+      <height>54</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/x.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="squ_label">
+    <property name="geometry">
+     <rect>
+      <x>569</x>
+      <y>219</y>
+      <width>54</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>54</width>
+      <height>54</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>54</width>
+      <height>54</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/square.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="o_label">
+    <property name="geometry">
+     <rect>
+      <x>682</x>
+      <y>219</y>
+      <width>54</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>54</width>
+      <height>54</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>54</width>
+      <height>54</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/o.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tri_label">
+    <property name="geometry">
+     <rect>
+      <x>625</x>
+      <y>160</y>
+      <width>54</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>54</width>
+      <height>54</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>54</width>
+      <height>54</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/triangle.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="u_label">
+    <property name="geometry">
+     <rect>
+      <x>134</x>
+      <y>182</y>
+      <width>37</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>37</width>
+      <height>53</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>37</width>
+      <height>53</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/pad_u.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="d_label">
+    <property name="geometry">
+     <rect>
+      <x>136</x>
+      <y>254</y>
+      <width>37</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>37</width>
+      <height>53</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>37</width>
+      <height>53</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/pad_d.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="r_label">
+    <property name="geometry">
+     <rect>
+      <x>163</x>
+      <y>225</y>
+      <width>53</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>53</width>
+      <height>37</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>53</width>
+      <height>37</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/pad_r.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_label">
+    <property name="geometry">
+     <rect>
+      <x>91</x>
+      <y>227</y>
+      <width>53</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>53</width>
+      <height>37</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>53</width>
+      <height>37</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/pad_l.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="r2_label">
+    <property name="geometry">
+     <rect>
+      <x>597</x>
+      <y>0</y>
+      <width>100</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>91</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>91</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/r2.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="r1_label">
+    <property name="geometry">
+     <rect>
+      <x>598</x>
+      <y>94</y>
+      <width>99</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>99</width>
+      <height>22</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>99</width>
+      <height>22</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/r1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l1_label">
+    <property name="geometry">
+     <rect>
+      <x>109</x>
+      <y>94</y>
+      <width>99</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>99</width>
+      <height>22</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>99</width>
+      <height>22</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/l1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="start_label">
+    <property name="geometry">
+     <rect>
+      <x>551</x>
+      <y>141</y>
+      <width>28</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>28</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>28</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/strat.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="select_label">
+    <property name="geometry">
+     <rect>
+      <x>227</x>
+      <y>141</y>
+      <width>28</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>28</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>28</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/resource.qrc">:/strat.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="assets/resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
